@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body style="margin-bottom: 200px; padding: 16px;">
+
+
+    <!-- Elementos flutuantes -->
+    <div style="border: 1px solid red; margin-top: 200px;" class="clearfix">
+        <div class="bg-success float-left">Float Left</div>
+        <div class="bg-warning float-right">Float Right</div>
+    </div>
+
+    <br>
+     <!--Cloar no topo (sticky)-->
+     <ul class="list-inline bg-warning sticky-top">
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+    <br>
+    <!--
+            Float responsivo - float-<tela>-<direção>
+        -->
+        <div class="float-sm-right">tela &gt;=576px</div>
+        <!--Small-->
+        <div class="float-md-right">tela &gt;=768px</div>
+        <!--Medium-->
+        <div class="float-lg-right">tela &gt;=992px</div>
+        <!--Large-->
+        <div class="float-xl-right">tela &gt;=1200px</div>
+        <!--Extra Large-->
+    <br>
+    <!--Posicionamento fixo - top e bottom-->
+    <h1 class="fixed-top">Título do conteúdo fixo</h1>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laboriosam ratione modi cum suscipit. Fugiat,
+        eum nesciunt, magni esse nam doloremque sequi a debitis possimus ex tempore assumenda iste voluptas Lorem, ipsum
+        dolor sit amet consectetur adipisicing elit. Rem, dolor incidunt voluptatem, consequuntur sunt impedit porro
+        provident ut totam suscipit quia fugiat eaque similique laboriosam odit hic velit! Deserunt, quod! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Quidem in debitis, magni deserunt aspernatur eos. Quos est
+        recusandae ipsam vero odio molestias maiores, aliquam, asperiores facilis obcaecati perspiciatis! A, voluptas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quam molestiae ea, sit maxime porro accusamus
+        labore, quidem sequi reprehenderit iusto beatae ab aut qui nesciunt ad nulla vel et?</p>
+    <hr>
+    <!--Parágrafo justificado-->
+    <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi assumenda natus, ducimus
+        consectetur neque
+        deleniti accusamus harum distinctio voluptas debitis labore illo earum esse saepe sapiente ea cupiditate rem
+        praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fuga sint voluptates dignissimos,
+        quidem praesentium est itaque quo veritatis ut possimus accusamus minus nostrum eum unde quis neque? Nulla,
+        reiciendis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eligendi, possimus hic quo
+        exercitationem recusandae quasi omnis sequi, non accusamus optio repellendus, accusantium vero nam unde quis
+        necessitatibus debitis quae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quo libero
+        exercitationem consequatur mollitia saepe velit laboriosam ipsum ad ratione, repellendus suscipit quis possimus
+        blanditiis expedita cupiditate necessitatibus assumenda Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Corporis ipsum soluta natus unde quae voluptatibus dolores? Officiis praesentium quos adipisci
+        necessitatibus quo. Possimus eos voluptatibus delectus, ad sed porro alias.</p>
+
+    <br>
+    <br>
+    <!--
+            Alinhamento resposivo
+            class text-<tela>-<alinhamento> 
+                tela: sm, md, lg , xl
+
+        -->
+        <p class="text-sm-right">tela &gt;=576px</p>
+        <!--Small-->
+        <p class="text-md-center">tela &gt;=768px</p>
+        <!--Medium-->
+        <p class="text-lg-right">tela &gt;=992px</p>
+        <!--Large-->
+        <p class="text-xl-center">tela &gt;=1200px</p>
+        <!--Extra Large-->
+        
+        
+    
+
+    <br>
+    <br>
+
+    <!--Elemento Inline para Block-->
+    <span class="bg-success d-block">Lorem ipsun dolor</span>
+    <span class="bg-success d-block">Lorem ipsun dolor 2</span>
+
+    <!--Elemento block para Inline-->
+    <h1 class="bg-success d-inline"> lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+    <!--Elemento Inline-block-->
+    <div class="bg-warning">
+        <h3 class="bg-success d-inline-block" style="width: 400px; margin-top: 20px;">Lorem ipsum</h3>
+        <h3 class="bg-success d-inline-block" style="width: 200px; margin-bottom: 35px;">Lorem ipsum dolor</h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
