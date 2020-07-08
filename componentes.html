@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <!--Botões bootstrap
+    
+        Se não quiser que o texto do botão pule de linha, coloque uma class
+        .text-nowrap para o botão ou configure $btn-white-space: nowrap no Sass
+
+        Se quiser remover a cor de fundo do botão, coloque a classe .btn-outline-cor
+        no lugar de btn-cor
+    -->
+    <button type="button" class="btn btn-primary btn-block">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link ">link</button>
+
+<hr>
+    <!--Radio buttons-->
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" checked> Ativo
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2"> Radio
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3"> Radio
+        </label>
+    </div>
+
+<hr>
+
+    <!--Badges-->
+    <button type="button" class="btn btn-primary">
+        Notificações <span class="badge badge-light">4</span>
+    </button>
+    <hr>
+    <!--Cartões-->
+    <div class="card text-center" style="width:18rem;">
+        <div class="card-header">
+            Destaque
+        </div>
+        <img src="https://img.elo7.com.br/product/original/17CD1E6/sketchbook-azul-claro-personalizado-caderninhos.jpg" alt=""  class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Título do cartão</h5>
+            <p class="card-text">Um exemplo de texto para criação de cartões</p>
+            <a href="#" class="btn btn-primary">Ir para algum lugar</a>
+        </div>
+            <div class="card-footer text-muted">
+                2 dias atrás
+            </div>
+    </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
