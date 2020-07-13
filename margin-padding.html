@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body style="margin-left: 100px; margin-right: 100px;">
+    
+<!--Aplicação de Margin
+mt -> Margin Top
+mb -> Margin Bottom
+ml -> Margin Left
+mr -> Margin Right
+mx -> Margin no eixo x (Horizontal - esquerda e direita)
+my -> Margin no eixo y (Vertical - pra cima e pra baixo)
+m  -> margin em todos os lados, Valor a definir (0 até 5)
+-->
+<h1 class="bg-success" style="margin: 0;">Margin</h1>
+<p class="bg-success m-1">Conteúdo Primário</p>
+<h1 class="bg-success">Margin</h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--A mesma coisa pro Padding
+Apenas troque m por p-->
+
+<h1 class="bg-success">Padding</h1>
+<p class="bg-success p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, consequuntur! Iste perferendis nisi, similique architecto unde esse corrupti reprehenderit eaque minima aut dolore nesciunt minus facilis at sunt quidem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem obcaecati nobis odit sequi assumenda provident tenetur repellat soluta, laborum culpa ipsa sint deleniti at facilis, excepturi mollitia corrupti accusamus quos?</p>
+<h1 class="bg-success mb-5">Padding</h1>
+
+<!--Classes de largura-->
+<div class="bg-primary w-25">width 25%</div>
+<div class="bg-primary w-50">width 50%</div>
+<div class="bg-primary w-75">width 75%</div>
+<div class="bg-primary w-100">width 100%</div>
+<div class="bg-primary w-auto">width automático</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Classes de altura-->
+<div style="height:300px; border:1px solid gray">
+    <div class="bg-primary d-inline-block h-25 mx-5">height 25%</div>
+    <div class="bg-primary d-inline-block h-50 mx-5">height50%</div>
+    <div class="bg-primary d-inline-block h-75 mx-5">height 75%</div>
+    <div class="bg-primary d-inline-block h-100 mx-5">height 100%</div>
+    <div class="bg-primary d-inline-block h-auto mx-5">height automático</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--
+    Bordas
+
+    border -> todas as bordas
+    border-top -> borda superior
+    border-bottom -> borda inferior
+    border-right -> borda direita
+    border-left -> borda esquerda
+
+    Cores de bordas
+    border-<cor>: primary, secondary, warning, danger, info, light, dark, success, white
+    
+    
+    Rounded aplica arredondamento para as bordas, mesmo esquema para as bordas, apenas troque Border por Rounded
+    -->
+<div class="bg-white mb-2 border border-danger rounded-top">Todas as bordas</div>
+<div class="bg-white mb-2 border-top border-danger">Borda superior</div>
+<div class="bg-white mb-2 border-right border-danger">Borda na direita</div>
+<div class="bg-white mb-2 border-left border-danger">Borda na esquerda</div>
+<div class="bg-white mb-2 border-bottom border-danger">Borda inferior</div>
+
+<br>
+<br>
+<!--Rounded-circle transforma a borda em um círculo, tem seu efeito mesmo com bordas não completas (border-top, right, etc.)-->
+<div class="bg-white mb-2 border border-danger rounded-circle">Borda inferior</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
