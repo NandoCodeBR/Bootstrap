@@ -52,16 +52,29 @@
 
         Se quiser remover a cor de fundo do botão, coloque a classe .btn-outline-cor
         no lugar de btn-cor
+
+        Tamanhos de botões
+        btn-sm pequeno 
+        btn-md médio   
+        btn-lg grande
+        btn-block cria um botão que vai ocupar todo o espaçamento disponível
     -->
     <button type="button" class="btn btn-primary btn-block">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+    <button type="button" class="btn btn-success btn-md">Success</button>
+    <button type="button" class="btn btn-danger btn-lg">Danger</button>
     <button type="button" class="btn btn-warning">Warning</button>
     <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-light ">Light</button>
     <button type="button" class="btn btn-dark">Dark</button>
     <button type="button" class="btn btn-link ">link</button>
+
+<hr>
+    <button type="button" class="btn btn-danger">Normal</button>
+    <button type="button" class="btn btn-danger disabled">Inativo</button>
+    <button type="button" class="btn btn-danger active ">Ativo</button>
+    <button type="button" class="btn btn-danger" data-toggle="button">Alternar</button>
+    
 
 <hr>
     <!--Radio buttons-->
@@ -76,7 +89,19 @@
             <input type="radio" name="options" id="option3"> Radio
         </label>
     </div>
-
+<hr>
+<!--Radio buttons vertical-->
+<div class="btn-group btn-group-toggle btn-group-vertical" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" checked> Ativo
+    </label>
+    <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2"> Radio
+    </label>
+    <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3"> Radio
+    </label>
+</div>
 <hr>
 
     <!--Badges-->
