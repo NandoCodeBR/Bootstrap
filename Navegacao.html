@@ -3,34 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+   
+    <link rel="stylesheet" type="text/css"
+        href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/css/mdb.min.css">
 </head>
 
 <body>
-    <h1>Navegação com abas e justify-content-center</h1>
-    <ul class="nav nav-tabs justify-content-center">
-        <li class="nav-item">
-            <a href="#" class="nav-link active">Link</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Link</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Link</a>
-        </li>
-
-    </ul>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at vel architecto tempora, asperiores eos! Aliquam
-    molestiae esse exercitationem omnis. Neque unde necessitatibus harum inventore aspernatur doloremque architecto
-    animi praesentium?
-
-
-    <hr>
-    <h1>Navegação Pills com flex-column</h1>
-    <nav>
-        <ul class="nav nav-pills flex-column">
+    <div class="container">
+        <!--Botão de volta para o top, é necessário de dois addons-->
+        <div class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;">
+            <a href="#top-section" class="btn-floating btn-large red waves-effect waves-light">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        </div>
+        <h1 id="top-section">Navegação com abas e justify-content-center</h1>
+        <ul class="nav nav-tabs justify-content-center">
             <li class="nav-item">
                 <a href="#" class="nav-link active">Link</a>
             </li>
@@ -41,40 +38,35 @@
                 <a href="#" class="nav-link">Link</a>
             </li>
         </ul>
-    </nav>
-    <hr>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at vel architecto tempora, asperiores eos!
+        Aliquam
+        molestiae esse exercitationem omnis. Neque unde necessitatibus harum inventore aspernatur doloremque architecto
+        animi praesentium?
 
-    <h2>Barra de navegação simples</h2>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <!--Logo-->
-        <a href="" class="navbar-brand">Chalé hotel</a>
 
-        <!--navegação-->
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a href="" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Sobre</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Serviços</a>
-            </li>
+        <hr>
+        <h1>Navegação Pills com flex-column</h1>
+        <nav>
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
 
-        </ul>
-    </nav>
-    <hr>
-    <h2>Barra de navegação com menu responsivo</h2>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <!--Logo-->
-        <a href="" class="navbar-brand">Chalé hotel</a>
-        <!--Menu hamburguer-->
-        <button class="navbar-toggler" data-toggle="collapse" 
-        data-target="#nav-target">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--navegação-->
-        <div class="collapse navbar-collapse" id="nav-target">
+        <h2>Barra de navegação simples</h2>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <!--Logo-->
+            <a href="" class="navbar-brand">Chalé hotel</a>
+
+            <!--navegação-->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a href="" class="nav-link">Home</a>
@@ -85,11 +77,62 @@
                 <li class="nav-item">
                     <a href="" class="nav-link">Serviços</a>
                 </li>
-            </ul>
-        </div>
-    </nav>
-    <hr>
 
+            </ul>
+        </nav>
+        <hr>
+        <h2>Barra de navegação com menu responsivo</h2>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <!--Logo-->
+            <a href="" class="navbar-brand">Chalé hotel</a>
+            <!--Menu hamburguer-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--navegação-->
+            <div class="collapse navbar-collapse" id="nav-target">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+        <h2>Barra de navegação - menu responsivo com formulário</h2>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <!--Logo-->
+            <a href="" class="navbar-brand">Chalé hotel</a>
+            <!--Menu hamburguer-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#Form-target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--navegação-->
+            <div class="collapse navbar-collapse" id="form-target">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <input type="text">
+                <button class="btn btn-outline-success btn-sm">Ok</button>
+            </form>
+        </nav>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
