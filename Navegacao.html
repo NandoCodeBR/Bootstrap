@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
+
 <body>
     <h1>Navegação com abas e justify-content-center</h1>
     <ul class="nav nav-tabs justify-content-center">
@@ -18,35 +20,83 @@
         <li class="nav-item">
             <a href="#" class="nav-link">Link</a>
         </li>
-        
+
     </ul>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at vel architecto tempora, asperiores eos! Aliquam molestiae esse exercitationem omnis. Neque unde necessitatibus harum inventore aspernatur doloremque architecto animi praesentium?
-   
-    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at vel architecto tempora, asperiores eos! Aliquam
+    molestiae esse exercitationem omnis. Neque unde necessitatibus harum inventore aspernatur doloremque architecto
+    animi praesentium?
+
+
     <hr>
     <h1>Navegação Pills com flex-column</h1>
-    <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-            <a href="#" class="nav-link active">Link</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Link</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Link</a>
-        </li>
-        
-    </ul>
-    <h1>Navegação Pills com flex-column</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eius beatae repudiandae non corrupti praesentium iusto harum! Ad alias eius esse nemo autem nisi accusantium magni, distinctio saepe amet ea?
+    <nav>
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Link</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
 
+    <h2>Barra de navegação simples</h2>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé hotel</a>
+
+        <!--navegação-->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Serviços</a>
+            </li>
+
+        </ul>
+    </nav>
+    <hr>
+    <h2>Barra de navegação com menu responsivo</h2>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé hotel</a>
+        <!--Menu hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" 
+        data-target="#nav-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navegação-->
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
+
 </html>
